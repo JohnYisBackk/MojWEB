@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <title>JohnYho Web</title>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+         <img src="img/logo.png" class="logo">
+         <div class="header-text">
+             <h1>Účelom je učiť <BR> a prinášať ľuďom vzdelávanie</h1>
+                <span class="square"></span>
+                <p>ale nie klamem,ale nie klamem,ale nie klamem,
+                    ale nie klamem,ale nie klamem,ale nie klamem,
+                    ale nie klamem,ale nie klamem,ale nie klamem</p>
+                    <button class="common-btn">Klikni sem</button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+            </div>
+         </div>
+        </div>
+    </section>
+    
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header">Domov</a></li>
+            <li><a href="#about">O mne</a></li>
+            <li><a href="#features">Vlastnosti</a></li>
+            <li><a href="#courses">Kurzy</a></li>
+            <li><a href="#offer">Ponuky</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <img src="img/menu.png" id="menuBtn">
+    
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+
+    </script>
+
+    <!--o mne -->
+
+    <section id="about">
+        <div class="about-left-col">
+        <img src="img/about.png">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>O mne</h1>
+                <span class="square"></span>
+                <p>Moje meno je Samuel. Venujem 
+                    sa grafickému designu už asi
+                     2 roky. Baví ma to, a chcel
+                      by som sa v tom zlepšovať.
+                       Neskôr som začal aj programovanie 
+                       webov, stránky, a to ma baví ešte
+                        viac. Som študent grafického designu.</p><br><br>
+                        <div class="line">
+                            <span class="line-1"></span><br>
+                            <span class="line-2"></span><br>
+                            <span class="line-3"></span>
+                        </div>
+
+                        <h2>Učenie sa nedosahuje náhodou,
+                             treba ho hľadať s nadšením a 
+                             usilovne sa mu venovať.</h2>
+                             <h3>Abigail Adams</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--Vlastnosti-->
+    <section id="features">
+        <div class="feature-row">
+        <div class="feature-col">
+            <img src="img/pic-1.png">
+            <h4>Uč sa hocikde</h4>
+            <p>Prepínaj medzi tvojim počítačom, tabletom alebo mobilným zariadením</p>
+        </div>
+        <div class="feature-col">
+            <img src="img/pic-2.png">
+            <h4>Uč sa od Expertov</h4>
+            <p>Uč sa od odborníkov v odbore, ktorý sa venuje výučbe</p>
+        </div>
+        <div class="feature-col">
+            <img src="img/pic-3.png">
+            <h4>Nekonečný prístup</h4>
+            <p>Vyber si čo sa chceš naučiť v našej platenej knižnici</p>
+        </div>
+    </div>
+    <div class="feature-btn">
+        <div class="line">
+            <span class="line-1"></span><br>
+            <span class="line-2"></span><br>
+            <span class="line-3"></span>
+        </div>
+        <button class="common-btn">Začať so skušobnou verziou</button>
+    </div>
+    </section> 
+
+    <!--kurzy-->
+
+    <section id="courses">
+             <div class="container course-row">
+            <div class="course-left-col"> 
+                <div class="course-text">
+                    <h1>Pozeraj moje najlepšie <br>kurzy</h1>
+                    <span class="square"></span>
+                    <p>Moje meno je Samuel. Venujem 
+                        sa grafickému designu už asi
+                         2 roky. Baví ma to, a chcel
+                          by som sa v tom zlepšovať.
+                           Neskôr som začal aj programovanie 
+                           webov, stránky, a to ma baví ešte
+                            viac. Som študent grafického designu.</p>
+                            <button class="common-btn">Pozrieť všetky kurzi</button>
+                            <div class="line">
+                                <span class="line-1"></span><br>
+                                <span class="line-2"></span><br>
+                                <span class="line-3"></span>
+             </div>
+            </div>
+            </div>
+            <div class="course-right-col">
+                <img src="img/course.png">
+            </div>
+        </div>
+    </section>
+
+    <!--ponuky--> 
+
+    <section id="offer">
+        <div class="about-left-col">
+        <img src="img/offer.png">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>Učenie bez limitu</h1>
+                <span class="square"></span>
+                <p>Moje meno je Samuel. Venujem 
+                    sa grafickému designu už asi
+                     2 roky. Baví ma to, a chcel
+                      by som sa v tom zlepšovať.
+                       Neskôr som začal aj programovanie 
+                       webov, stránky, a to ma baví ešte
+                        viac. Som študent grafického designu.</p>
+                        <button class="common-btn">Začať skušobnou verziou</button>
+                        <div class="line">
+                            <span class="line-1"></span><br>
+                            <span class="line-2"></span><br>
+                            <span class="line-3"></span>
+                        </div>
+
+                        <h2>Učenie sa nedosahuje náhodou,
+                             treba ho hľadať s nadšením a 
+                             usilovne sa mu venovať.</h2>
+                             <h3>Abigail Adams</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--kontakt-->
+
+    <section id="contact">
+        <div class="container contact-row">
+            <div class="contact-left-col">
+                <h1>Zaregistruj sa a pripoj sa k nám <BR>Učiaca komunita</h1>
+                <form>
+                    <input type="text" placeholder="Tvoje meno">
+                    <input type="text" placeholder="Tvoj Email">
+                    <input type="text" placeholder="Tvoje heslo">
+                    <div class="btn-box">
+                        <button class="common-btn">Zaregistrovať sa</button>
+                        <button class="common-btn">Prihlásiť sa</button>
+                    </div>
+                </form>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+            </div>
+            <div class="contact-right-col">
+                <img src="img/contact.png">
+            </div>
+        </div>
+
+    </section>
+
+   <!--Footer-->
+  
+   <section id="footer">
+       <div class="container footer-row">
+           <hr>
+           <div class="footer-left-col">
+               <div class="footer-links">
+                   <div class="link-title">
+                       <h4>Produkt</h4>
+                       <small>Môj Plán</small><br>
+                       <small>Skušobná verzia</small>
+                   </div>
+                   <div class="link-title">
+                    <h4>O mne</h4>
+                    <small>žiadosť o demo</small><br>
+                    <small>FAQs</small>
+                </div>
+                <div class="link-title">
+                    <h4>Podpora</h4>
+                    <small>Vlastnosti</small><br>
+                    <small>Kontaktuj ma</small>
+                </div>
+                <div class="link-title">
+                    <h4>Preskúmať</h4>
+                    <small>Najdi nezisk</small><br>
+                    <small>Spoločné riešenie</small>
+                </div>
+               </div>
+           </div>
+           <div class="footer-right-col">
+               <div class="footer-info">
+                   <div class="copyright-text">
+                       <small>samojohny@gmail.com</small><br>
+                       <small>Copyright 2020 JohnYboY</small>
+                   </div>
+                   <div class="footer-logo">
+                       <img src="img/logo.png">
+                       <button class="common-btn">Slovenčina</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!--social-icons-->
+
+   <div class="social-icons">
+       <img src="img/facebook.png">
+       <img src="img/instagram.png">
+       <img src="img/twitter.png">
+       <img src="img/linkedin.png">
+   </div>
+
+   <script>
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
+</script>
+
+
+</body>
+</html>
